@@ -28,6 +28,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install mkdocs-jupyter
+          pip install mkdocs-awesome-pages-plugin
       
       - name: Deploy to GitHub Pages
         run: |
