@@ -65,11 +65,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Experience: experience.md
-  - Projects:
-    - Project 1: projects/project1.md
-    - Project 2: projects/TP_regulazation.ipynb
-    - Project 3: projects/project3.md
+  - Projects: projects/
   - Skills: skills.md
   - Contact: contact.md
 plugins:
       - mkdocs-jupyter
+      - awesome-pages
